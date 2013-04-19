@@ -56,7 +56,7 @@
                     
                 });
 
-            },
+            }
 
         }
 
@@ -145,6 +145,7 @@
                 if(bc == 'TRL') currency_before = '&pound;';
                 if(bc == 'TVD') currency_before = '$';
                 if(bc == 'GBP') currency_before = '&pound;';
+                if(bc == 'UAE') currency_before = 'AED';
                 if(bc == 'USD') currency_before = '$';
                 if(bc == 'UYU') currency_before = '$U';
                 if(bc == 'VEF') currency_before = 'Bs';
